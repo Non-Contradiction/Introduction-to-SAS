@@ -2,7 +2,7 @@
 title: "index"
 author: "Changcheng Li"
 date: "2017/7/6"
-output: html_document
+output: github_document
 ---
 
 <./Lecture1-Read%20Data%20into%20SAS%20(1).slides.html#/>
