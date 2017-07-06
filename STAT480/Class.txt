@@ -1,0 +1,6 @@
+Beck Anderson   Male    2.67  700  700
+Dupont Jules    Female  2.98  700  500
+Gavetti Nicole  Female  2.67  470  470
+Easton Matthew  Male    3.6   710  560
+Mattiace John   Male    3.76  .    .
+Zhang Chen      Female  3.86  610  720
