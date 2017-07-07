@@ -1,5 +1,7 @@
 # .travis.yml
 language: python
+python:
+  - "3.6"
 script:
  - bash ./scripts/deploy-to-gh-pages.sh
 env:
