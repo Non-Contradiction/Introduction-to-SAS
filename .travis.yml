@@ -1,10 +1,9 @@
-# .travis.yml
 language: python
 python:
-  - "3.6"
+- '3.6'
 script:
- - bash ./scripts/deploy-to-gh-pages.sh
+- bash ./scripts/deploy-to-gh-pages.sh
 env:
- global:
-   - GITHUB_REPO: "Non-Contradiction/Introduction-to-SAS"
-   - secure:  "yIcl8gn8GV73rAMtyZHZpTndRZHr9rzL9TwUOF8AL4QKy3KqlmIjnMJq8M951UJOr7QdyiZT+sRC/Nus5ZmB17XzhpAg0uyp5vMmk5sccpojh3j9RBg0AgEa2Yzv+uIcwdrMpHIyXdp+3fmX5NyhXB4whZJDRPqdHRnLKl6Jas/JEVH6OHkl6YLe0Zzf0sndPWgR20v1eSlLUHuqEvvbvlKXDFUmuSO2mIEkeXtssds/YL691h+DJLsNv/7mEAW0mqti2XJ3kTJwVw/oKPspBEG8OdO/GDJOu8QbWzviLZFEEklFb3o30I9YO8k2Zw6zREsxCMB8Wef0MQnkoI+/2HNdHRx0nTiNWfS5mRPl0VWoxRJZUpgHLQBmIGHfDaUfSl4dWJVquRr737T8gFO/+5dJHrLz+hjDPzptgdLxd2tMkv9Y6YvznfIBYpGSu0qcuhvg4R/lpoiLicLL5zPafITTIVixEvQ2FmRf2EcpRyN0ri7qkiDxJAKZjzgvevy3F7r4v3hc6btLC6z6nFeWMNwcDB4sYmknvsBJWOgoKwLmHqxNlsFVT+bTK+i3hAHuNJifMBEIn7W9fpQmxAZGq4DwruguBld3uxNotY8q3T+nYPHS+oTVw1j54XVBgfavuhXYe0caAZMFCHmf7WPhi/ab3rHUimJtGiRX6Z/O5u0="
+  global:
+  - GITHUB_REPO: Non-Contradiction/Introduction-to-SAS
+  - secure: fF+6brzIKP5gFdttfIVegBdjo0yzgvBwyovus2/InezvPXxC+ylEvOlfvHhAHqlXKLhgofx2mwIMJ1Rjs+TjZ1M59KIpZY6a3vsNbkDrrOYFIpXwr/u236pVQvvdiJITYIoIIojhG1XpOexQiO+sXd+fhUvG81DQZwBkKha1Sh5SLLxkdWTFkmFMWfENV7HRSvD8m1pc3bq2v/q9KaZLxwUHGUBYh52LGLHWbf9YxQtznCjWNnzXcdEvOA7U/N9GRy1vey49URkU9Ab7t7ZcEdDQWjRyAIFf+aR9vdop11GH4ZDDUDxIUTuPxBNrLSzK5YJltMrdLky0ZaTnrqJu0Cg0wyz/VPx8jDP8eIm/O+xracceAeOsLqWyP9tVu6j9NplpC1U5fJ70zVJlcOvbfMhYy5qwfLmz/JmqpXr4PLdDmeUWMOElzXGcfvOxU/zI30GnSu8URSeuHfcBMYxxW3HKs3KhMPpqAK5w42WDZj8n/LbaetdlOqFtP+gVSkglc7Z9qK0ktwhgO5KYDoKES2FQ+KvlXFe4KilcxMO81jC9FnlaapAgZQwKNIHhg4ogqLP2xG3fQYQQFkpPwJQM7a7iG4N93JddquQbHAWFvibpG6jd/JCe1xh3KvNlCSZ4lw5LHuTaPthnV6x26uBJc8ddVM1ZOzR+Zs2inzBDG8I=
