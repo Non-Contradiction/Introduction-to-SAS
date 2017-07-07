@@ -11,8 +11,8 @@ html_names <- names %>% sub(pattern = "\\.ipynb", replacement ="\\.slides\\.html
 ```
 
 ```{r pressure, echo=FALSE, results='asis'}
-href_list <- paste0("<p><https://", html_names, "></p>")
-for (i in href_list) {
-    cat(i)
+for (i in 1:length(html_names)) {
+    href <- paste0("<p>[Lecture", i, "]", "(https://non-contradiction.github.io/Introduction-to-SAS/", html_names[i], ")</p>")
+    cat(href)
 }
 ```
