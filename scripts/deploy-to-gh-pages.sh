@@ -6,8 +6,8 @@ rm -rf out
 mkdir out
 
 # config
-git config --global user.email "nobody@nobody.org"
-git config --global user.name "Travis CI"
+git config --global user.email "lch34677@gmail.com"
+git config --global user.name "Non-Contradiction"
 
 # build (CHANGE THIS)
 jupyter nbconvert Lecture*.ipynb --to slides --output-dir ./out
