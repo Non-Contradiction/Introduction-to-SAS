@@ -10,6 +10,7 @@ mkdir out;
 # run our compile script, discussed above
 jupyter nbconvert Lecture*.ipynb --to slides --output-dir ./out
 
+cp index.html out/
 cp -r reveal.js/ out/
 
 # go to the out directory and create a *new* Git repo

@@ -1,8 +1,18 @@
 ---
-title: "index"
-author: "Changcheng Li"
-date: "2017/7/6"
+title: "Lectures for Introduction to SAS"
 output: html_document
 ---
 
-<./Lecture1-Read%20Data%20into%20SAS%20(1).slides.html#/>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(magrittr)
+names <- list.files(pattern = "Lecture.*\\.ipynb")
+html_names <- names %>% sub(pattern = "\\.ipynb", replacement ="\\.slides\\.html#/") %>% gsub(pattern=" ", replacement="%20")
+```
+
+```{r pressure, echo=FALSE, results='asis'}
+href_list <- paste0("<p><https://", html_names, "></p>")
+for (i in href_list) {
+    cat(i)
+}
+```
